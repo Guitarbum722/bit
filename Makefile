@@ -1,5 +1,3 @@
-OS := $(shell uname)
-
 build: clean
 	go build -o bin/bit
 
